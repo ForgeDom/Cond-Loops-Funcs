@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <div class="sec-one">
+                <div class="age-input">
+                    <h1>Enter your age:</h1>
+                    <input id="age" type="text" placeholder="How old are you?">
+                    <button id="checkAge">Submit</button>
+                </div>
+                <div class="calculator">
+                    <h1>Calculator</h1>
+                    <input id="firstNumber" type="number">
+                    <input id="sign" type="text">
+                    <input id="secondNumber" type="number">
+                    <button id="calculate">=</button>
+                    <span id="result" style="border: 1px black;"></span>
+                </div>
+            </div>
+            <hr style="margin:30px 0;">
+            <div class="sec-two" style="display: flex; justify-content: space-between; width: 1000px;">
+                <div>
+                    <h1>All odd numbers from 1 to 50</h1>
+                    <span id="evenNumbers"></span>
+                </div>
+                <div>
+                    <h1>Sum of all numbers from 1 to 100</h1>
+                    <span id="sumNum"></span>
+                </div>
+                <div>
+                    <h1>Enter "stop" to stop the infinite loop - <span id="timer">0</span></h1>
+                    <input type="text" placeholder="Enter 'Stop'.." id="stopInput">
+                </div>
+            </div>
+            <hr style="margin:30px 0;">
+            <div class="sec-three" style="display: flex; justify-content: space-between; width: 1200px;">
+                <div>
+                    <h1>Check if the number is simple</h1>
+                    <input type="number" id="n">
+                    <button id="ifIsPrime">Check</button>
+                    <span id="primeNumbers"></span>
+                </div>
+                <div>
+                    <h1>Reversing string</h1>
+                    <input id="inputString" type="text" placeholder="Enter the string">
+                    <button id="reverseButton">Reverse</button>
+                    <span id="reverseResult"></span>
+                </div>
+                <div>
+                    <h1>Find factorial</h1>
+                    <input id="factorialInput" type="number" placeholder="Enter number">
+                    <button id="factorialButton">Result</button>
+                    <span id="factorialResult"></span>
+                </div>
+            </div>
+            <hr style="margin:30px 0;">
+            <div class="sec-four">
+                <h1>Guess the number game😊</h1>
+                <button id="startGame" style="display:block;">Start Game</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
